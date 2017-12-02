@@ -65,7 +65,7 @@ class Header extends Component {
                     />
                     <meta charSet="utf-8" />
                     <title>
-                        WordPress + React Starter Kit Frontend by Postlight
+                        Pragmatic Galaxy
                     </title>
                 </Head>
                 <style jsx global>{`
@@ -83,11 +83,13 @@ class Header extends Component {
                     </Link>
                     {menuItems}
                 </div>
-                <img
+                    {/*
+                     <img
                     src="/static/images/wordpress-plus-react-header.png"
                     width="815"
                     style={headerImageStyle}
-                />
+                    />
+                 */}
             </div>
         );
     }
